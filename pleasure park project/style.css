@@ -1,0 +1,140 @@
+
+
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+a:hover{
+    color: rgb(11, 156, 167);
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+   
+}
+header .logo{
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(0, 255, 136);
+}
+nav{
+  margin-left: 60%;
+  margin-top: 20px;
+}
+.inner1{
+    display: flex;
+}
+.inner1-text{
+    background-color: rgb(243, 235, 235);
+    width: 100%;
+
+}
+.first-p{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(20, 20, 2);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inner-flex{
+    display: flex;
+    margin-left: 10px;
+}
+
+.second-p{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgba(192, 137, 17, 0.966);
+}
+.third-p{
+    font-size: 20px;
+    text-align: center;
+}
+.first-btn{
+    background-color: rgb(12, 112, 8);
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    border-color: azure;
+    margin-left: 40%;
+}
+
+.inner-about{
+    margin-top: -18px;
+    background-image: url(giphy2.gif);
+    background-size: cover;
+    height: 400px;
+}
+.inner-about h2{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inner-about p{
+    font-size: 20px;
+    padding-left: 35px;
+    text-align: justify;
+    font-weight: 900;
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -17px;
+    height: 40px;
+}
+.inner2{
+   background-image: url(pexels.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -90px;
+    height: 800px;
+}
+.inner-form{ 
+    padding-top: 5px;
+    padding-left: 40px;
+    margin-left: 30%;
+    margin: 0 auto;
+    background-color: rgba(44, 62, 80, 0.7);
+    width: 30%;
+    height: 50vh;
+    margin-top: 90px;
+}
+.ticket-bg{
+    padding-top: 5px;
+    padding-left: 40px;
+    background-color: grey;
+    width: 80%;
+    height: 50vh;
+}
+.ticket-bg form input{
+    width: 250px;
+}
+.second-btn{
+    background-color: rgb(230, 7, 7);
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: silver;
+}
+.third-btn{
+    background-color: rgb(4, 151, 36);
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: silver;
+}
